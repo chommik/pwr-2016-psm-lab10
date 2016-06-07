@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="pl.chom.lab10.MainActivity" >
+
+    <item android:id="@+id/action_refresh"
+        android:title="Odśwież"
+        android:orderInCategory="110"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/action_add"
+        android:title="Dodaj"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+</menu>
